@@ -8,7 +8,7 @@ ratings.forEach((ratingEle) => {
         // console.log(event.target.innerText || event.target.parentNode.innerText);
         removeActive();
         selectRating=event.target.innerText || event.target.parentNode.innerText;
-        event.target.classList.add("acive")
+        event.target.classList.add("active")
         event.target.parentNode.classList.add("active")
     });
 });
